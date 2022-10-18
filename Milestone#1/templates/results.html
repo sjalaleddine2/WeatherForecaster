@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/results.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<h1>5 Day Forecast</h1>
+<div id="results">
+    <h2 >{{ temp_1f }}° F</h2>
+    <h2>{{ temp_1c }}° C</h2>
+    <h2> {{ date_1 }} </h2>
+</div>
+<div id="results">
+    <h2>{{ temp_2f }}° F</h2>
+    <h2>{{ temp_2c }}° C</h2>
+    <h2> {{ date_2 }} </h2>
+</div>
+<div id="results">
+    <h2>{{ temp_3f }}° F</h2>
+    <h2>{{ temp_3c }}° C</h2>
+    <h2> {{ date_3 }} </h2>
+</div>
+<div id="results">
+    <h2>{{ temp_4f }}° F</h2>
+    <h2>{{ temp_4c }}° C</h2>
+    <h2> {{ date_4 }} </h2>
+</div>
+<div id="results">
+    <h2>{{ temp_5f }}° F</h2>
+    <h2>{{ temp_5c }}° C</h2>
+    <h2> {{ date_5 }} </h2>
+</div>
+<form action = "{{url_for ('home') }}" method = "POST"> <button id = "refresh"> Refresh</button> </form>
+</body>
+</html>

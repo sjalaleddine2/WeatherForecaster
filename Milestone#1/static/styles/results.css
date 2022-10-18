@@ -1,0 +1,46 @@
+#results {
+    background-color: #fa887c;
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 40px;
+    width: 150px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    left: 20px;
+    top: 130px;
+}
+
+h1 {
+    padding-left: 20px;
+    text-align:center;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+#refresh {
+    color: white;
+    background-color: #443b3a;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    left: 825px;
+    top: 150px;
+    width: 110px;
+    height: 30px;
+    position: relative;
+}
+
+#refresh:hover {
+    cursor: pointer;
+}

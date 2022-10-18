@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Forecast Homepage</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/home.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<h2>5 Day Forecast</h2>
+<div class = "locationText" id="Welcome"> Welcome! This application will give you the forecast <br> for your location for the next 5 days. </div>
+<form class="locationText" id="formText" onsubmit ="return confirm ('Are you sure you want to continue?')" action="{{ url_for('render_results') }}" method="post">
+    Location (Zip Code or City): <input class="locationText" id="inputBox" type="text" name="Location"><br>
+    <input class="locationText" id="submitButton" type="submit" value="Submit">
+</form>
+<div class = "locationText" id = "helpMessage"> Having trouble, or see a bug? Contact here! <br> 888-999-1010 <br>
+ forecastnow@email.com
+</div>
+<div class = "locationText" id = "Note"> Note: Using city is more accurate </div>
+</body>
+</html>

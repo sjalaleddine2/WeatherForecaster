@@ -1,0 +1,52 @@
+.locationText {
+    font-family: 'Arial', 'sans-serif';
+    font-size: 20px;
+    position: relative;
+}
+
+#formText {
+    padding: 20px;
+    left: 540px;
+    top: 400px;
+}
+
+#helpMessage {
+    left: 560px;
+    top: 600px;
+    font-size: 20px;
+}
+
+#Welcome {
+    left: 550px;
+    top: 250px;
+    font-size: 25px;
+}
+
+#submitButton {
+    color: white;
+    background-color: #443b3a;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    left: 250px;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+#Note {
+    left: 570px;
+    top: 240px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h2 {
+    padding-left: 20px;
+    text-align:center;
+    font-family: 'Arial', 'sans-serif';
+    font-size: 40px;
+    position: relative;
+    top: 250px;
+}
