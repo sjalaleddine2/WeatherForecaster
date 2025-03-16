@@ -20,7 +20,7 @@ WeatherForecaster is a simple weather application that provides real-time weathe
 
 ## Installation & Setup
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/sjalaleddine2/WeatherForecaster.git
